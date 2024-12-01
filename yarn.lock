@@ -2,7 +2,12 @@
 # yarn lockfile v1
 
 
-"@agility/content-fetch@1.0.0", "@agility/content-fetch@^1.0.0":
+"@agility/content-fetch@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@agility/content-fetch/-/content-fetch-2.0.0.tgz#57a3e93ea0927284be582fc6382251385ab9ad95"
+  integrity sha512-ghqdv/IozVASwPgZThZrmufbo8q5a5UMOMOyy9CCSS8BVx5r+QxjRLTEXQOp7xpoJO1vhe3QUkOmCppssBf3Eg==
+
+"@agility/content-fetch@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@agility/content-fetch/-/content-fetch-1.0.0.tgz#a945aa1abf21c093a6688494ab5a15d1282774d9"
   integrity sha512-cG8XMT4OtlxbuEk7DW4jwe2MK5WuCvu4vClajjOD4DerkkINtWGfvt92XHlcFQ9Az4RmBnOR4/LQMnH3l7AjXg==
