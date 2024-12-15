@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@agility/content-fetch@1.0.0", "@agility/content-fetch@^1.0.0":
+"@agility/content-fetch@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@agility/content-fetch/-/content-fetch-1.0.0.tgz#a945aa1abf21c093a6688494ab5a15d1282774d9"
   integrity sha512-cG8XMT4OtlxbuEk7DW4jwe2MK5WuCvu4vClajjOD4DerkkINtWGfvt92XHlcFQ9Az4RmBnOR4/LQMnH3l7AjXg==
@@ -10,14 +10,19 @@
     axios "^0.18.1"
     axios-cache-adapter "^2.4.1"
 
-"@agility/content-sync@0.1.23":
-  version "0.1.23"
-  resolved "https://registry.yarnpkg.com/@agility/content-sync/-/content-sync-0.1.23.tgz#68c46a0330bbe2aba772d638669c3bf49f8892e5"
-  integrity sha512-LDw6+nPqI0Lgtt4fzkDcdHtLnvNiuSyhMca2X/I8QuSrtX2asJGbYH3e8YQEq59C2Ocvfn9xrGJyIVj48f5Ukw==
+"@agility/content-fetch@^2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@agility/content-fetch/-/content-fetch-2.0.8.tgz#aa53366d70abd1576b62b8b2ea897054de5fc091"
+  integrity sha512-Sf6Hs8Pp9rCeNpAeJYFK19zA4S2lEQFy71NjR9N44K66NSQM9B199oypMWUKvI5AteNG+3qn35yD6Dk4/UhijQ==
+
+"@agility/content-sync@1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@agility/content-sync/-/content-sync-1.1.8.tgz#f4593a1b92e04771688e5c16569b6a44c9c39b6b"
+  integrity sha512-jePTJvQ6hQf/8dvvagGp8JGp+7eCjxg0BUmQ/knc1QNRgA/+Wr6yvas79QUG53du6iSHJAVKohzk1RDmlTbtuQ==
   dependencies:
-    "@agility/content-fetch" "^1.0.0"
+    "@agility/content-fetch" "^2.0.8"
     dotenv "^8.2.0"
-    proper-lockfile "^4.1.1"
+    proper-lockfile "^4.1.2"
 
 "@ampproject/toolbox-core@^2.6.0", "@ampproject/toolbox-core@^2.7.2":
   version "2.7.2"
@@ -3108,6 +3113,11 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
 
+graceful-fs@^4.2.4:
+  version "4.2.11"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
+  integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
+
 has-flag@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
@@ -4931,12 +4941,12 @@ prop-types@15.7.2, prop-types@^15.7.2:
     object-assign "^4.1.1"
     react-is "^16.8.1"
 
-proper-lockfile@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/proper-lockfile/-/proper-lockfile-4.1.1.tgz#284cf9db9e30a90e647afad69deb7cb06881262c"
-  integrity sha512-1w6rxXodisVpn7QYvLk706mzprPTAPCYAqxMvctmPN3ekuRk/kuGkGc82pangZiAt4R3lwSuUzheTTn0/Yb7Zg==
+proper-lockfile@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/proper-lockfile/-/proper-lockfile-4.1.2.tgz#c8b9de2af6b2f1601067f98e01ac66baa223141f"
+  integrity sha512-TjNPblN4BwAWMXU8s9AEz4JmQxnD1NNL7bNOY/AKUzyamc379FWASUhc/K1pL2noVb+XmZKLL68cjzLsiOAMaA==
   dependencies:
-    graceful-fs "^4.1.11"
+    graceful-fs "^4.2.4"
     retry "^0.12.0"
     signal-exit "^3.0.2"
 
